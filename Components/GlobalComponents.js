@@ -69,7 +69,7 @@ export const CustomText = ({
   vAlign,
 }) => {
   return (
-    <spam
+    <span
       style={{
         fontSize: fSize ? fSize : 12,
         fontWeight: fWeight,
@@ -88,7 +88,7 @@ export const CustomText = ({
       }}
     >
       {children}
-    </spam>
+    </span>
   );
 };
 
